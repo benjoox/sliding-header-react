@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderPrimary  renders correctly 1`] = `
+<div
+  className="primary"
+>
+  <section>
+    <div
+      className="vertical-align"
+    >
+      <svg>
+        forum-dots.svg
+      </svg>
+    </div>
+    <div
+      className="vertical-align text-logo "
+    >
+      <svg>
+        forum-logo-text.svg
+      </svg>
+    </div>
+  </section>
+  <section>
+    <div
+      className="search-box-container"
+    >
+      <div
+        className="search-box "
+      >
+        <div
+          className="search-icon "
+        >
+          <svg>
+            search.svg
+          </svg>
+        </div>
+        <input
+          className="search-box-input"
+          placeholder="Search"
+          type="text"
+        />
+      </div>
+    </div>
+    <button
+      className="registeration-btn"
+    >
+      <div>
+        <svg>
+          profile.svg
+        </svg>
+      </div>
+      <p>
+        Register
+      </p>
+    </button>
+  </section>
+</div>
+`;

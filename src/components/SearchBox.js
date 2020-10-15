@@ -3,7 +3,6 @@ import { bool } from 'prop-types'
 import { ReactComponent as Search } from './assets/search.svg'
 
 export default function SearchBox({ collapsed }) {
-    console.log('collapsed ', collapsed)
   return (
     <div className="search-box-container">
       <div className={`search-box ${collapsed ? 'collapsed' : ''}`}>
@@ -17,5 +16,5 @@ export default function SearchBox({ collapsed }) {
 }
 
 SearchBox.protoType = {
-  collap: bool.isRequired,
+  collapse: bool.isRequired,
 }

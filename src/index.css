@@ -24,8 +24,55 @@ code {
   --white: #ffffff;
 }
 
+section {
+  display: flex;
+}
+
+/*****************
+    Primary
+******************/
+.primary {
+  position: fixed;
+  display: flex;
+  max-width: 930px;
+  min-width: 576px;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 28px;
+  background-color: white;
+}
+
+.text-logo {
+  margin-left: 5px;
+  animation: logo-slide-down var(--speed) ease-in;
+  animation-fill-mode: forwards;
+}
+
+.text-logo.collapsed {
+  animation: logo-slide-up var(--speed) ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes logo-slide-up {
+  0% {
+  }
+  100% {
+    transform: translateY(-150%);
+  }
+}
+
+@keyframes logo-slide-down {
+  0% {
+    transform: translateY(-150%);
+  }
+  100% {
+    
+  }
+}
+
+
 /****************** 
-  Register Button
+    Register Button
 *******************/
 .registeration-btn {
   border: none;
@@ -52,6 +99,12 @@ code {
     Search Box
 *********************/
 
+.search-box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .search-box {
   background: #e6ecf0 0% 0% no-repeat padding-box;
   border-radius: 60px;
@@ -68,6 +121,7 @@ code {
 .search-box.collapsed {
   animation: shrink var(--speed) ease-in;
   animation-fill-mode: forwards;
+  padding: 3px;
 }
 
 .search-box-input {
@@ -89,12 +143,14 @@ code {
 .search-box .search-icon {
   padding-top: 1px;
   padding-left: 11px;
+  transform: translateY(5px);
 }
 
 .search-box.collapsed .search-icon {
   padding-left: 20px;
-  animation: icon-expand var(--speed) ease-in calc(var(--speed) / 2 );
+  animation: icon-expand var(--speed) ease-in calc(var(--speed) / 2);
   animation-fill-mode: forwards;
+  transform: translateY(5px);
 }
 
 @keyframes icon-expand {
@@ -127,4 +183,10 @@ code {
     transform: scaleX(0.15);
     border-radius: 50%;
   }
+}
+
+.vertical-align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
