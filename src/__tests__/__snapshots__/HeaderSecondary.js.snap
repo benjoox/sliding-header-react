@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Large screen - HeaderSecondary renders correctly when collpased 1`] = `
+<div
+  className="secondary collapsed"
+>
+  <ul>
+    <li
+      className="dropdown-item"
+    >
+      All A-Z
+      <span>
+        <svg>
+          arrow-down.svg
+        </svg>
+      </span>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Brexit
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Climate
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Copyright
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Migration
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Deb on hover
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Debate X
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Debate Y
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Debate L
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Debate S
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Large screen - HeaderSecondary renders correctly when expanded 1`] = `
+<div
+  className="secondary "
+>
+  <ul>
+    <li
+      className="dropdown-item"
+    >
+      All A-Z
+      <span>
+        <svg>
+          arrow-down.svg
+        </svg>
+      </span>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Brexit
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Climate
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Copyright
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Migration
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Deb on hover
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Debate X
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Debate Y
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Debate L
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Debate S
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Small screen - HeaderSecondary renders correctly when collpased 1`] = `
+<div
+  className="secondary collapsed"
+>
+  <ul>
+    <li
+      className="dropdown-item"
+    >
+      All A-Z
+      <span>
+        <svg>
+          arrow-down.svg
+        </svg>
+      </span>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Brexit
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Climate
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Copyright
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Migration
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Deb on hover
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Debate X
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Debate Y
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Debate L
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Debate S
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Small screen - HeaderSecondary renders correctly when expanded 1`] = `
+<div
+  className="secondary "
+>
+  <ul>
+    <li
+      className="dropdown-item"
+    >
+      All A-Z
+      <span>
+        <svg>
+          arrow-down.svg
+        </svg>
+      </span>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Brexit
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Climate
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Copyright
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Migration
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Deb on hover
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Debate X
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Debate Y
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Debate L
+      </a>
+    </li>
+    <li
+      className="topic-item"
+    >
+      <a
+        href="#"
+      >
+        Debate S
+      </a>
+    </li>
+  </ul>
+</div>
+`;

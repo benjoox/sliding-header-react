@@ -13,7 +13,7 @@ export default function TopicItem({
     if (current) {
       setElementWidth(index, current.getBoundingClientRect().width)
     }
-  }, [liRef, index])
+  }, [liRef, index, setElementWidth])
   const classname = className ? `topic-item ${className}` : 'topic-item'
   return (
     <li ref={liRef} className={classname}>

@@ -30,10 +30,12 @@ ul {
 
 li {
   list-style: none;
+  font-size: 14px;
+  white-space: pre;
 }
 
 /*****************
-    Primary
+  Primary Header
 ******************/
 .primary {
   position: fixed;
@@ -74,6 +76,41 @@ li {
 }
 
 /*****************
+    Secondary Header
+******************/
+.secondary {
+  position: fixed;
+  top: 58px;
+  padding: 10px;
+  max-width: 930px;
+  min-width: 576px;
+  width: 100%;
+  animation: slide-down-menu var(--speed) ease-in;
+  animation-fill-mode: forwards;
+}
+
+.secondary.collapsed {
+  animation: slide-up-menu var(--speed) ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-up-menu {
+  from {
+  }
+  to {
+    transform: translate(35px, -50px);
+  }
+}
+
+@keyframes slide-down-menu {
+  from {
+    transform: translate(35px, -50px);
+  }
+  to {
+  }
+}
+
+/*****************
     Topic Item
 ******************/
 li.topic-item a {
@@ -92,6 +129,7 @@ li.topic-item:hover a {
   color: var(--primary-text-color);
   opacity: 0.5;
   position: relative;
+  padding-right: 10px;
 }
 
 .dropdown-item:hover {
@@ -103,7 +141,27 @@ li.topic-item:hover a {
 .dropdown-item span {
   position: absolute;
   top: 8px;
-  left: 55px;
+  left: 48px;
+}
+
+.topic-item {
+  opacity: 1;
+  transition: opacity var(--speed) ease-in;
+}
+
+.topic-item.fade-out {
+  opacity: 0;
+  transition: opacity var(--speed) ease-in;
+}
+
+li.topic-item.fade-out:hover {
+  opacity: 0;
+  cursor: default;
+}
+
+.topic-item.fade-out > a:hover {
+  opacity: 0;
+  cursor: default;
 }
 
 /****************** 
