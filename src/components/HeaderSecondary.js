@@ -24,7 +24,9 @@ export default function HeaderSecondary({ width, collapsed }) {
   const ulRef = useRef()
 
   useEffect(() => {
-    const allowedWidth = width - 290 - 120
+    // Allowed width is the distance between the primary header
+    // logo and the search/registeration section
+    const allowedWidth = width - 250 - 120
     function calculatePrimaryItems() {
       let sumWidth = 0
       for (let k = 0; k < widthArray.length; k++) {

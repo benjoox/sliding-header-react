@@ -1,12 +1,25 @@
-import React, { useRef } from 'react'
-import { bool } from 'prop-types'
+import React, { useRef, useEffect, useState } from 'react'
+import { bool, func } from 'prop-types'
+import { useResize } from './CustomHooks'
 import { ReactComponent as ForumDots } from './assets/forum-dots.svg'
 import { ReactComponent as ForumLogoText } from './assets/forum-logo-text.svg'
 import RegisterButton from './RegisterButton'
 import SearchBox from './SearchBox'
 
-export default function HeaderPrimary({ collapsed }) {
+export default function HeaderPrimary({ collapsed, setWidth }) {
   const el = useRef(null)
+  const [innerWidth, setInnerWidth] = useState(1)
+
+  useResize((e) => {
+    setInnerWidth(window.innerWidth)
+  })
+
+  useEffect(() => {
+    if (el.current) {
+      // Remove the width of the DropDownItem component
+      setWidth(el.current.offsetWidth - 55)
+    }
+  }, [el, innerWidth, setWidth])
 
   return (
     <div className="primary" ref={el}>
@@ -31,4 +44,5 @@ export default function HeaderPrimary({ collapsed }) {
 
 HeaderPrimary.protoType = {
   collapse: bool.isRequired,
+  setWidth: func.isRequired
 }
