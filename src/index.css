@@ -79,7 +79,6 @@ li {
 li.topic-item a {
   padding: 10px 20px;
   font-size: 14px;
-  cursor: pointer;
   color: var(--primary-text-color);
   opacity: 0.5;
 }
@@ -87,6 +86,24 @@ li.topic-item a {
 li.topic-item:hover a {
   color: var(--primary-text-color);
   opacity: 1;
+}
+
+.dropdown-item {
+  color: var(--primary-text-color);
+  opacity: 0.5;
+  position: relative;
+}
+
+.dropdown-item:hover {
+  color: var(--primary-text-color);
+  opacity: 1;
+  cursor: pointer;
+}
+
+.dropdown-item span {
+  position: absolute;
+  top: 8px;
+  left: 55px;
 }
 
 /****************** 
