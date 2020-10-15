@@ -153,7 +153,7 @@ a:visited {
   from {
   }
   to {
-    transform: translate(35px, -50px);
+    transform: translate(35px, -42px);
   }
 }
 
@@ -195,7 +195,7 @@ li.topic-item:hover a {
 
 .dropdown-item span {
   position: absolute;
-  top: 8px;
+  top: 0px;
   left: 48px;
 }
 
@@ -291,7 +291,7 @@ li.topic-item.fade-out:hover {
 .search-box .search-icon {
   padding-top: 1px;
   padding-left: 11px;
-  transform: translateY(5px);
+  transform: translateY(2px);
 }
 
 .search-box.collapsed .search-icon {
