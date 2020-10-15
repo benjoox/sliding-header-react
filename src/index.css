@@ -24,6 +24,9 @@ code {
   --white: #ffffff;
 }
 
+/****************** 
+  Register Button
+*******************/
 .registeration-btn {
   border: none;
   outline: none;
@@ -43,4 +46,85 @@ code {
 .registeration-btn p {
   margin: 1px 7px;
   color: white;
+}
+
+/********************
+    Search Box
+*********************/
+
+.search-box {
+  background: #e6ecf0 0% 0% no-repeat padding-box;
+  border-radius: 60px;
+  opacity: 1;
+  width: 189px;
+  display: flex;
+  padding: 6px;
+  margin-right: 20px;
+  cursor: pointer;
+  animation: expand var(--speed) ease-in;
+  animation-fill-mode: forwards;
+}
+
+.search-box.collapsed {
+  animation: shrink var(--speed) ease-in;
+  animation-fill-mode: forwards;
+}
+
+.search-box-input {
+  border: none;
+  background: #e6ecf0;
+  width: 100%;
+}
+
+.search-box-input:focus {
+  outline: none;
+  border: none;
+  background: #e6ecf0;
+}
+
+.search-box.collapsed .search-box-input {
+  display: none;
+}
+
+.search-box .search-icon {
+  padding-top: 1px;
+  padding-left: 11px;
+}
+
+.search-box.collapsed .search-icon {
+  padding-left: 20px;
+  animation: icon-expand var(--speed) ease-in calc(var(--speed) / 2 );
+  animation-fill-mode: forwards;
+}
+
+@keyframes icon-expand {
+  from {
+    transform: scaleX(1);
+  }
+  to {
+    transform: scaleX(8);
+  }
+}
+
+@keyframes expand {
+  from {
+    transform-origin: right;
+    transform: scaleX(0.15);
+  }
+  to {
+    transform-origin: right;
+    transform: scaleX(1);
+  }
+}
+
+@keyframes shrink {
+  from {
+    transform-origin: right;
+    transform: scaleX(1);
+  }
+  to {
+    transform-origin: right;
+    transform: scaleX(0.15);
+    border-radius: 50%;
+  }
 }

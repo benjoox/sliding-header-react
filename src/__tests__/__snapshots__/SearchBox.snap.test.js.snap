@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBox renders correctly when collpased 1`] = `
+<div
+  className="search-box-container"
+>
+  <div
+    className="search-box collapsed"
+  >
+    <div
+      className="search-icon collapsed"
+    >
+      <svg>
+        search.svg
+      </svg>
+    </div>
+    <input
+      className="search-box-input"
+      placeholder="Search"
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`SearchBox renders correctly when expanded 1`] = `
+<div
+  className="search-box-container"
+>
+  <div
+    className="search-box "
+  >
+    <div
+      className="search-icon "
+    >
+      <svg>
+        search.svg
+      </svg>
+    </div>
+    <input
+      className="search-box-input"
+      placeholder="Search"
+      type="text"
+    />
+  </div>
+</div>
+`;
