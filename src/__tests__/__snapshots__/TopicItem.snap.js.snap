@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopicItem  renders correctly 1`] = `
+<li
+  className="topic-item collapsed"
+>
+  <a
+    href="#"
+  >
+    Debate X
+  </a>
+</li>
+`;

@@ -1,8 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -13,19 +12,24 @@ code {
 }
 
 :root {
-  --bg: #ffffff;
-  --nav-size: 60px;
-  --border: 1px solid grey;
-  --border-radius: 8px;
   --speed: 700ms;
-  --light-blue: #0096ff;
-  --topic-bar-color: #0096ff;
   --primary-text-color: #132f48;
+  --light-blue: #0096ff;
   --white: #ffffff;
 }
 
 section {
   display: flex;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+li {
+  list-style: none;
 }
 
 /*****************
@@ -66,10 +70,24 @@ section {
     transform: translateY(-150%);
   }
   100% {
-    
   }
 }
 
+/*****************
+    Topic Item
+******************/
+li.topic-item a {
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  color: var(--primary-text-color);
+  opacity: 0.5;
+}
+
+li.topic-item:hover a {
+  color: var(--primary-text-color);
+  opacity: 1;
+}
 
 /****************** 
     Register Button
