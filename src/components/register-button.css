@@ -1,0 +1,20 @@
+.registeration-btn {
+  border: none;
+  outline: none;
+  padding: 13px;
+  border-radius: 25px;
+  color: var(--topic-bar-text-color);
+  display: flex;
+  cursor: pointer;
+  background: var(--topic-bar-color) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0000001a;
+  border-radius: 54px;
+  opacity: 1;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.registeration-btn p {
+  margin: 1px 7px;
+  color: white;
+}
