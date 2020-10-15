@@ -20,6 +20,8 @@ code {
 
 section {
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -32,6 +34,59 @@ li {
   list-style: none;
   font-size: 14px;
   white-space: pre;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  padding-top: 135px;
+}
+
+img {
+  width: 100%;
+}
+a {
+  color: var(--hover-color);
+  text-decoration: none;
+  opacity: 0.5;
+}
+a:hover {
+  color: var(--hover-color);
+  opacity: 1;
+}
+a:visited {
+  color: var(--hover-color);
+  text-decoration: none;
+}
+
+/*****************
+  Header Container
+******************/
+
+.container {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  transition: height var(--speed) ease-in;
+  height: 135px;
+}
+.container.collapsed {
+  animation: slideup var(--speed) ease-in;
+  animation-fill-mode: forwards;
+  transition: height var(--speed) ease-in;
+  height: 80px;
+}
+
+@keyframes slideup {
+  from {
+    transform: translateY(1);
+  }
+  to {
+    transform: translateY(-20px);
+  }
 }
 
 /*****************

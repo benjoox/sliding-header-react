@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeadersContainer  renders correctly 1`] = `
+<div
+  className="container "
+>
+  <header
+    className=""
+  >
+    <div
+      className="primary"
+    >
+      <section>
+        <div
+          className="vertical-align"
+        >
+          <svg>
+            forum-dots.svg
+          </svg>
+        </div>
+        <div
+          className="vertical-align text-logo "
+        >
+          <svg>
+            forum-logo-text.svg
+          </svg>
+        </div>
+      </section>
+      <section>
+        <div
+          className="search-box-container"
+        >
+          <div
+            className="search-box "
+          >
+            <div
+              className="search-icon "
+            >
+              <svg>
+                search.svg
+              </svg>
+            </div>
+            <input
+              className="search-box-input"
+              placeholder="Search"
+              type="text"
+            />
+          </div>
+        </div>
+        <button
+          className="registeration-btn"
+        >
+          <div>
+            <svg>
+              profile.svg
+            </svg>
+          </div>
+          <p>
+            Register
+          </p>
+        </button>
+      </section>
+    </div>
+    <div
+      className="secondary "
+    >
+      <ul>
+        <li
+          className="dropdown-item"
+        >
+          All A-Z
+          <span>
+            <svg>
+              arrow-down.svg
+            </svg>
+          </span>
+        </li>
+        <li
+          className="topic-item"
+        >
+          <a
+            href="#"
+          >
+            Brexit
+          </a>
+        </li>
+        <li
+          className="topic-item"
+        >
+          <a
+            href="#"
+          >
+            Climate
+          </a>
+        </li>
+        <li
+          className="topic-item"
+        >
+          <a
+            href="#"
+          >
+            Copyright
+          </a>
+        </li>
+        <li
+          className="topic-item"
+        >
+          <a
+            href="#"
+          >
+            Migration
+          </a>
+        </li>
+        <li
+          className="topic-item"
+        >
+          <a
+            href="#"
+          >
+            Deb on hover
+          </a>
+        </li>
+        <li
+          className="topic-item"
+        >
+          <a
+            href="#"
+          >
+            Debate X
+          </a>
+        </li>
+        <li
+          className="topic-item"
+        >
+          <a
+            href="#"
+          >
+            Debate Y
+          </a>
+        </li>
+        <li
+          className="topic-item"
+        >
+          <a
+            href="#"
+          >
+            Debate L
+          </a>
+        </li>
+        <li
+          className="topic-item"
+        >
+          <a
+            href="#"
+          >
+            Debate S
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+</div>
+`;
